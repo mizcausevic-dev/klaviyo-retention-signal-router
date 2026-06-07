@@ -1,0 +1,70 @@
+{
+  "organization": "Kinetic Gain synthetic lifecycle estate",
+  "generatedAt": "2026-06-06T00:00:00.000Z",
+  "lanes": [
+    {
+      "name": "Post-purchase replenishment",
+      "owner": "Lifecycle marketing",
+      "audience": "Repeat buyers",
+      "primaryFlow": "Replenishment reminder",
+      "flowFatigueScore": 73,
+      "consentCoverage": 68,
+      "revenueRecoveryCoverage": 59,
+      "lifecycleReadiness": 63,
+      "measurementConfidence": 61,
+      "suppressedProfileRate": 18,
+      "staleSegmentCount": 6,
+      "campaignCollisionRisk": 44,
+      "revenueAtRiskUsd": 184000,
+      "nextAction": "Rebuild replenishment segments, suppress over-mailed cohorts, and attach SKU-level revenue recovery evidence."
+    },
+    {
+      "name": "Winback reactivation",
+      "owner": "Revenue operations",
+      "audience": "Lapsed buyers",
+      "primaryFlow": "Winback",
+      "flowFatigueScore": 58,
+      "consentCoverage": 76,
+      "revenueRecoveryCoverage": 72,
+      "lifecycleReadiness": 70,
+      "measurementConfidence": 68,
+      "suppressedProfileRate": 12,
+      "staleSegmentCount": 4,
+      "campaignCollisionRisk": 31,
+      "revenueAtRiskUsd": 121000,
+      "nextAction": "Separate lapsed cohorts by last purchase window and measure incrementality before increasing send volume."
+    },
+    {
+      "name": "VIP loyalty expansion",
+      "owner": "Growth marketing",
+      "audience": "High-LTV customers",
+      "primaryFlow": "VIP early access",
+      "flowFatigueScore": 26,
+      "consentCoverage": 91,
+      "revenueRecoveryCoverage": 87,
+      "lifecycleReadiness": 84,
+      "measurementConfidence": 82,
+      "suppressedProfileRate": 5,
+      "staleSegmentCount": 1,
+      "campaignCollisionRisk": 14,
+      "revenueAtRiskUsd": 46000,
+      "nextAction": "Keep current cadence and attach holdout evidence before expanding VIP offer frequency."
+    },
+    {
+      "name": "Browse abandonment",
+      "owner": "E-commerce operations",
+      "audience": "High-intent browsers",
+      "primaryFlow": "Browse abandonment",
+      "flowFatigueScore": 47,
+      "consentCoverage": 83,
+      "revenueRecoveryCoverage": 78,
+      "lifecycleReadiness": 77,
+      "measurementConfidence": 73,
+      "suppressedProfileRate": 9,
+      "staleSegmentCount": 2,
+      "campaignCollisionRisk": 24,
+      "revenueAtRiskUsd": 79000,
+      "nextAction": "Validate browse-trigger eligibility and reduce campaign overlap before the next promotion calendar."
+    }
+  ]
+}
