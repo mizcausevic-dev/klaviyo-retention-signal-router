@@ -122,7 +122,45 @@ const html = `<!doctype html>
         <strong>Primary recommendation</strong>
         <p>${retentionConsole.primaryRecommendation}</p>
       </section>
-      <footer>Kinetic Gain synthetic proof surface. No customer data, profile exports, or Klaviyo credentials included.</footer>
+  
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <div class="section-kicker">Executive intelligence product</div>
+          <h2>What this does</h2>
+        </div>
+        <p class="summary">This product helps marketing, revenue, and lifecycle teams see which retention signals need action before list fatigue, broken segmentation, or missed revenue motion compounds.</p>
+      </div>
+      <div class="grid three">
+        <article class="card"><div class="top"><span>GTM analyst lens</span></div><h3>Connects the signal to a commercial decision.</h3><p>Makes lifecycle marketing operationally credible by tying segments, flows, suppression, offers, and attribution to a clear next action.</p></article>
+        <article class="card"><div class="top"><span>SaaS value lens</span></div><h3>Turns operational noise into investable remediation.</h3><p>Frames campaign and flow cleanup as revenue protection, churn reduction, and cleaner customer journeys instead of just email ops hygiene.</p></article>
+        <article class="card"><div class="top"><span>Technical proof</span></div><h3>Keeps the calculation inspectable and safe.</h3><p>Scores retention lanes using segment freshness, flow health, attribution readiness, suppression coverage, deliverability posture, and owner routing.</p></article>
+      </div>
+      <div class="pill-list" aria-label="Signal tags"><span class="pill">Lifecycle revenue and retention signal routing</span><span class="pill">board-ready evidence</span><span class="pill">owner routing</span><span class="pill">synthetic proof</span></div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <div class="section-kicker">Operating workflow</div>
+          <h2>How the signal becomes a decision</h2>
+        </div>
+        <p class="summary">The workflow is designed for reusable diligence and operating packets: collect the evidence, score the posture, route the gap, and publish a buyer-readable next action.</p>
+      </div>
+      <div class="workflow">
+        <div class="step"><strong>1</strong><div><h3>Register signal lane and segment owner</h3><p>Attach the responsible owner, audience, system lane, and decision context before the lifecycle revenue and retention signal routing signal reaches an executive packet.</p></div></div>
+        <div class="step"><strong>2</strong><div><h3>Score flow, audience, and attribution health</h3><p>Use the typed engine to turn raw operating evidence into a comparable posture that leaders can inspect without needing console access.</p></div></div>
+        <div class="step"><strong>3</strong><div><h3>Route cleanup by revenue impact</h3><p>Turn the score into a concrete remediation motion with a named owner, urgency tier, and business consequence.</p></div></div>
+        <div class="step"><strong>4</strong><div><h3>Publish retention action plan</h3><p>Expose the executive-safe story: current posture, risk, recoverable value, and what should happen next.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section boundary">
+      <div class="section-kicker">What these repos have in common</div>
+      <h2>They convert platform complexity into board-ready operating proof.</h2>
+      <p class="summary">The public surface uses synthetic Klaviyo retention data only. No customer profiles, lists, events, revenue exports, API keys, or credentials belong in this repo. The shared Kinetic Gain pattern is consistent: name the buyer pain, expose the evidence trail, produce a reusable artifact, and keep the public surface safe to review.</p>
+    </section>
+    <footer><span>Klaviyo Retention Signal Router</span><span>·</span><a href="https://portfolio.kineticgain.com/">Portfolio</a><a href="https://kineticgain.com/">Kinetic Gain</a><a href="https://github.com/mizcausevic-dev/klaviyo-retention-signal-router">GitHub</a></footer>
     </main>
   </body>
 </html>`;
